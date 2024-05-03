@@ -1,0 +1,52 @@
+{
+    "type": "object",
+    "properties": {
+        "replyToMessageId": {
+            "type": "string"
+        },
+        "replyToMessageAuthor": {
+            "type": "string"
+        },
+        "body": {
+            "type": "string"
+        },
+        "emojis": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "imageURL": {
+                        "type": "string"
+                    },
+                    "animURL": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "profileOverride": {
+            "type": "object",
+            "properties": {
+                "username": {
+                    "type": "string"
+                },
+                "avatar": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "link": {
+                    "type": "string"
+                },
+                "characterID": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "required": ["replyToMessageId", "replyToMessageAuthor", "body"]
+}

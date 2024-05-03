@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "shortname": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "banner": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": ["name"]
+}

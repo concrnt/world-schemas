@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "username": {
+            "type": "string"
+        },
+        "avatar": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "banner": {
+            "type": "string"
+        },
+        "subprofiles": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}
