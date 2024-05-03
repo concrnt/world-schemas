@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: sync with s3
-      run: aws s3 sync . s3://world-schemas --endpoint-url ${{ secrets.ENDPOINT_URL }} --region auto
+      run: aws s3 sync . s3://world-schemas --exclude ".*" --endpoint-url ${{ secrets.ENDPOINT_URL }} --region auto
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
