@@ -30,7 +30,9 @@
                     "badgeId": {
                         "type": "string"
                     }
-                }
+                },
+                "required": ["seriesId", "badgeId"],
+                "additionalProperties": false
             }
         }
     },
