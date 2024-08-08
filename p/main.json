@@ -18,6 +18,20 @@
             "items": {
                 "type": "string"
             }
+        },
+        "badges": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "seriesId": {
+                        "type": "string"
+                    },
+                    "badgeId": {
+                        "type": "string"
+                    }
+                }
+            }
         }
     },
     "additionalProperties": false
