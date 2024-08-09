@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "txhash": {
+            "type": "string"
+        }
+    },
+    "required": ["txhash"],
+    "additionalProperties": false
+}
