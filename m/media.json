@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "body": {
+            "type": "string"
+        },
+        "emojis": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "imageURL": {
+                        "type": "string"
+                    },
+                    "animURL": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "medias": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "mediaURL": {
+                        "type": "string"
+                    },
+                    "mediaType": {
+                        "type": "string"
+                    },
+                    "thumbnailURL": {
+                        "type": "string"
+                    },
+                    "blurhash": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": ["mediaURL", "mediaType"]
+            }
+        },
+        "profileOverride": {
+            "type": "object",
+            "properties": {
+                "profileID": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "required": ["body"]
+}

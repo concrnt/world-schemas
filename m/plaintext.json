@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "body": {
+            "type": "string"
+        },
+        "profileOverride": {
+            "type": "object",
+            "properties": {
+                "profileID": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "required": ["body"]
+}
