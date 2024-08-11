@@ -18,7 +18,7 @@
                 "link": {
                     "type": "string"
                 },
-                "characterID": {
+                "profileID": {
                     "type": "string"
                 }
             },
