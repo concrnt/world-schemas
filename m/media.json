@@ -35,6 +35,9 @@
                     },
                     "blurhash": {
                         "type": "string"
+                    },
+                    "flag": {
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
