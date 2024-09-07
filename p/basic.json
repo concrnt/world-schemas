@@ -1,0 +1,33 @@
+{
+    "title": "Basic Profile",
+    "description": "A basic profile object",
+    "type": "object",
+    "properties": {
+        "username": {
+            "type": "string",
+            "title": "名前"
+        },
+        "avatar": {
+            "type": "string",
+            "title": "アイコン画像"
+        },
+        "description": {
+            "type": "string",
+            "title": "自己紹介"
+        },
+        "banner": {
+            "type": "string",
+            "title": "バナー画像"
+        }
+    },
+    "required": ["username", "avatar"],
+    "additionalProperties": false,
+    "ui": {
+        "avatar": {
+            "ui:widget": "mediaInput"
+        },
+        "banner": {
+            "ui:widget": "mediaInput"
+        }
+    }
+}
