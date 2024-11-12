@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "subprofile": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": ["subprofile"]
+}
