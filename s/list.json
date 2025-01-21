@@ -4,6 +4,9 @@
         "name": {
             "type": "string"
         },
+        "iconURL": {
+            "type": "string"
+        },
         "description": {
             "type": "string"
         }
