@@ -18,5 +18,13 @@
         }
     },
     "additionalProperties": false,
-    "required": ["name"]
+    "required": ["name"],
+    "ui": {
+        "icon": {
+            "ui:widget": "mediaInput"
+        },
+        "banner": {
+            "ui:widget": "mediaInput"
+        }
+    }
 }
