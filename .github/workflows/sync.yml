@@ -14,6 +14,13 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Install AWS CLI version 2.22.35
+      working-directory: /tmp
+      run: |
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.22.35.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+
     - name: sync with s3
       run: aws s3 sync . s3://world-schemas --exclude ".*" --endpoint-url ${{ secrets.ENDPOINT_URL }} --region auto
       env:
