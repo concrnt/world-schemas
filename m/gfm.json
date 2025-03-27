@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "body": {
+            "type": "string"
+        },
+        "emojis": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "imageURL": {
+                        "type": "string"
+                    },
+                    "animURL": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "profileOverride": {
+            "type": "object",
+            "properties": {
+                "username": {
+                    "type": "string"
+                },
+                "avatar": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "link": {
+                    "type": "string"
+                },
+                "profileID": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "required": ["body"]
+}
