@@ -4,6 +4,9 @@
         "body": {
             "type": "string"
         },
+        "flag": {
+            "type": "string"
+        },
         "emojis": {
             "type": "object",
             "additionalProperties": {
