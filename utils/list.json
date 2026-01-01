@@ -10,7 +10,9 @@
                 "type": "string"
             }
         },
-        "meta": {}
+        "meta": {
+            "type": "object"
+        }
     },
     "additionalProperties": false,
     "required": ["title", "items"]
