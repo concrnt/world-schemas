@@ -1,0 +1,30 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "uri": {
+                "type": "string"
+            },
+            "defaultPostHome": {
+                "type": "boolean",
+                "default": false
+            },
+            "defaultPostTimelines": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "defaultProfile": {
+                "type": "boolean"
+            }
+        },
+        "required": [
+            "uri",
+            "defaultPostHome",
+            "defaultPostTimelines"
+        ],
+        "additionalProperties": false
+    }
+}
