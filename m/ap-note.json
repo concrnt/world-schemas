@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "actorURL": {
+            "type": "string"
+        },
+        "noteURL": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": ["actorURL", "noteURL"]
+}
