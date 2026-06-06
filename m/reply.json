@@ -1,6 +1,9 @@
 {
     "type": "object",
     "properties": {
+        "targetURI": {
+            "type": "string"
+        },
         "replyToMessageId": {
             "type": "string"
         },
@@ -48,5 +51,5 @@
         }
     },
     "additionalProperties": false,
-    "required": ["replyToMessageId", "replyToMessageAuthor", "body"]
+    "required": ["targetURI", "body"]
 }

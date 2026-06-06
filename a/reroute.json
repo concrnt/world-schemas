@@ -1,6 +1,9 @@
 {
     "type": "object",
     "properties": {
+        "targetURI": {
+            "type": "string"
+        },
         "messageId": {
             "type": "string"
         },
@@ -30,5 +33,5 @@
         }
     },
     "additionalProperties": false,
-    "required": ["messageId", "messageAuthor"]
+    "required": ["targetURI"]
 }

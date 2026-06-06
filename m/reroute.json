@@ -1,6 +1,9 @@
 {
     "type": "object",
     "properties": {
+        "targetURI": {
+            "type": "string"
+        },
         "rerouteMessageId": {
             "type": "string"
         },
@@ -48,8 +51,5 @@
         }
     },
     "additionalProperties": false,
-    "required": [
-        "rerouteMessageId",
-        "rerouteMessageAuthor"
-    ]
+    "required": ["targetURI"]
 }
