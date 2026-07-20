@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "properties": {
+        "did": {
+            "type": "string"
+        },
+        "atUri": {
+            "type": "string"
+        },
+        "cid": {
+            "type": "string"
+        },
+        "profileOverride": {
+            "type": "object",
+            "properties": {
+                "username": {
+                    "type": "string"
+                },
+                "avatar": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "link": {
+                    "type": "string"
+                },
+                "characterID": {
+                    "type": "string"
+                },
+                "profileOverride": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "required": ["did", "atUri", "cid"]
+}

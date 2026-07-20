@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "did": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": ["did"]
+}
