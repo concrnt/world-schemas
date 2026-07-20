@@ -1,0 +1,8 @@
+{
+    "type": "object",
+    "properties": {
+        "actorURI": { "type": "string" }
+    },
+    "additionalProperties": false,
+    "required": ["actorURI"]
+}

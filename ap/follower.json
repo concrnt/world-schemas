@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "ccid": { "type": "string" },
+        "actorURI": { "type": "string" },
+        "inbox": { "type": "string" },
+        "sharedInbox": { "type": "string" }
+    },
+    "additionalProperties": false,
+    "required": ["ccid", "actorURI", "inbox"]
+}

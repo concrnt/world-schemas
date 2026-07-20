@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "ccid": { "type": "string" },
+        "actorURI": { "type": "string" },
+        "status": { "type": "string", "enum": ["accepted", "rejected"] }
+    },
+    "additionalProperties": false,
+    "required": ["ccid", "actorURI", "status"]
+}
