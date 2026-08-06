@@ -17,6 +17,12 @@
                 }
             },
             "defaultProfile": {
+                "type": "string"
+            },
+            "excludeSelf": {
+                "type": "boolean"
+            },
+            "isIconTab": {
                 "type": "boolean"
             }
         },

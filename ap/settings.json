@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "listenTimelines": {
+            "type": "array",
+            "items": { "type": "string" }
+        }
+    },
+    "additionalProperties": false,
+    "required": ["listenTimelines"]
+}
