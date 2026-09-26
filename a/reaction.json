@@ -7,6 +7,9 @@
         "shortcode": {
             "type": "string"
         },
+        "profileURI": {
+            "type": "string"
+        },
         "profileOverride": {
             "type": "object",
             "properties": {

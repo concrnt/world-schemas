@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "tipjars": {
+            "type": "object",
+            "properties": {
+                "ethereum": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": {
+                "type": "string"
+            }
+        }
+    },
+    "required": ["tipjars"],
+    "additionalProperties": false
+}

@@ -3,8 +3,14 @@
     "properties": {
         "txhash": {
             "type": "string"
+        },
+        "target": {
+            "type": "string"
+        },
+        "chainId": {
+            "type": "number"
         }
     },
-    "required": ["txhash"],
+    "required": ["txhash", "target"],
     "additionalProperties": false
 }

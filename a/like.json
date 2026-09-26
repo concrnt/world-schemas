@@ -1,6 +1,9 @@
 {
     "type": "object",
     "properties": {
+        "profileURI": {
+            "type": "string"
+        },
         "profileOverride": {
             "type": "object",
             "properties": {

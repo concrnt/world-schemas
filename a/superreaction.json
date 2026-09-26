@@ -1,8 +1,18 @@
 {
-    "description": "",
-    "metadata": {},
     "type": "object",
     "properties": {
+        "imageUrl": {
+            "type": "string"
+        },
+        "shortcode": {
+            "type": "string"
+        },
+        "amount": {
+            "type": "string"
+        },
+        "message": {
+            "type": "string"
+        },
         "profileURI": {
             "type": "string"
         },
@@ -28,5 +38,6 @@
             "additionalProperties": false
         }
     },
-    "additionalProperties": false
+    "additionalProperties": false,
+    "required": ["imageUrl", "shortcode", "amount"]
 }
