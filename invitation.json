@@ -4,26 +4,16 @@
         "comment": {
             "type": "string"
         },
-        "lists": {
+        "list": {
+            "type": "string"
+        },
+        "defaultPostTimelines": {
             "type": "array",
             "items": {
-                "type": "object",
-                "properties": {
-                    "uri": {
-                        "type": "string"
-                    },
-                    "defaultPostTimelines": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
-                    }
-                },
-                "required": ["uri", "defaultPostTimelines"],
-                "additionalProperties": false
+                "type": "string"
             }
         }
     },
-    "required": ["lists"],
+    "required": ["list", "defaultPostTimelines"],
     "additionalProperties": false
 }
