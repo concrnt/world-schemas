@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "comment": {
+            "type": "string"
+        },
+        "lists": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "uri": {
+                        "type": "string"
+                    },
+                    "defaultPostTimelines": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": ["uri", "defaultPostTimelines"],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": ["lists"],
+    "additionalProperties": false
+}
