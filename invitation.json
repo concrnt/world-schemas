@@ -17,6 +17,6 @@
             }
         }
     },
-    "required": ["timelines", "defaultPostTimelines"],
+    "required": ["comment", "timelines", "defaultPostTimelines"],
     "additionalProperties": false
 }
