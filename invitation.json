@@ -4,8 +4,11 @@
         "comment": {
             "type": "string"
         },
-        "list": {
-            "type": "string"
+        "timelines": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         },
         "defaultPostTimelines": {
             "type": "array",
@@ -14,6 +17,6 @@
             }
         }
     },
-    "required": ["list", "defaultPostTimelines"],
+    "required": ["timelines", "defaultPostTimelines"],
     "additionalProperties": false
 }
